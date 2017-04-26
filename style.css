@@ -1,3 +1,109 @@
 body {
 	font-family: 'Arial';
-	background-color: #dddddd; }
+	background-color: #dddddd;
+}
+
+nav { 
+	border-style: solid;
+	display: inline-block;	
+	margin-right: 5px;
+	background-color: white;
+	width: 100%;
+	text-align: right;
+	height: 89px;
+	padding-top: 40px;
+}
+
+header { 
+	border-style: solid;
+	background-color: #4aaaa5;
+	color: white;
+	font-family: 'Georgia';
+	font-size: 20pt;
+	width: 260px;
+    height: 89px;
+    text-align: center;
+    padding-top: 40px;
+    font-weight: bold;
+
+}
+
+
+
+.li {
+  	display: inline-block;
+  	float: right;
+
+}
+
+#aboutme  { 
+	float: left;
+	border-style: solid black;
+	color:#777777;
+	background-color: white;
+    margin-left: 162px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    width: 600px;
+    text-align: left;
+}
+
+#connect {
+	float: left;
+	background-color: white;
+	margin-left: 40px;
+	margin-top: 100px;
+	color: #4aaaa5;
+	font-weight: bold;
+	font-size: 18pt;
+	text-align: left;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    /*padding-left: 20px;*/
+}
+
+table {
+	display: inline;
+}
+
+
+#me {
+	text-align: left;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    font-size: 20pt;
+    font-weight: bold;
+    color: #4aaaa5;
+}
+
+
+#img {
+float: left;
+padding-left: 20px;
+padding-bottom: 100px;
+width: 200px;
+}
+
+
+.th {
+	color: #4aaaa5;}
+}
+
+div.footer {
+	background-color: #ccc;
+	width: 100%;
+	margin-bottom: 5px;
+
+}
+
+#footer {
+    /*position:absolute;*/
+    clear:both;
+    bottom:0;
+    color: gray;
+    background-color: #666666;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
